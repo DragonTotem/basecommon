@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--头栏属性定义-->
+    <declare-styleable name="TopBarView">
+        <attr name="title" format="string" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleGravity" format="enum" >
+            <enum name="center" value="1"/>
+            <enum name="left" value="0"/>
+        </attr>
+        <attr name="leftText" format="string" />
+        <attr name="rightText" format="string" />
+        <attr name="leftIcon" format="reference" />
+        <attr name="rightIcon" format="reference" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="hiddenBack" format="boolean"/>
+        <attr name="hiddenLine" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="BottomNavigationView">
+        <attr name="navigationMenu" format="reference"/>
+    </declare-styleable>
+
+    <attr name="Round" format="dimension" />
+    <attr name="Border" format="dimension"/>
+    <attr name="BorderColor" format="color"/>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="IsCircle" format="boolean"/>
+        <attr name="Round" />
+        <attr name="RoundTL" format="dimension"/>
+        <attr name="RoundTR" format="dimension"/>
+        <attr name="RoundBL" format="dimension"/>
+        <attr name="RoundBR" format="dimension"/>
+        <attr name="Border" />
+        <attr name="BorderColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="SizeType" format="enum" >
+            <enum name="FULL" value="1"/>
+            <enum name="MIDDLE" value="2"/>
+            <enum name="SMALL" value="3"/>
+            <enum name="CUSTOM" value="0"/>
+        </attr>
+        <attr name="StrokeType" format="enum" >
+            <enum name="None" value="0"/>
+            <enum name="Round" value="1"/>
+            <enum name="Circle" value="2"/>
+        </attr>
+        <attr name="ProgressMode" format="boolean" />
+        <attr name="Border" />
+        <attr name="BorderColor"/>
+        <attr name="Round" />
+    </declare-styleable>
+
+</resources>

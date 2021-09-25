@@ -1,0 +1,4 @@
+include ':gradleplugin'
+include ':commom'
+include ':app'
+rootProject.name = "basecommon"

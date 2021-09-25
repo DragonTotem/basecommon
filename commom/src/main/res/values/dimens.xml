@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="CustomTextFull">320dp</dimen>
+    <dimen name="CustomTextMiddle">160dp</dimen>
+    <dimen name="CustomTextSmall">80dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--placeholder color-->
+    <color name="common_ui_load_bg1">#EFAFAF</color>
+    <color name="common_ui_load_bg2">#D4BADF</color>
+    <color name="common_ui_load_bg3">#FEE394</color>
+    <color name="common_ui_load_bg4">#90CDC1</color>
+    <color name="common_ui_load_bg5">#AAC0EA</color>
+
+</resources>

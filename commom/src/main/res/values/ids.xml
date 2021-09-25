@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="common_locate_tv_01" type="id" />
+    <item name="common_locate_tv_02" type="id" />
+    <item name="common_locate_tv_03" type="id" />
+    <item name="common_locate_tv_04" type="id" />
+    <item name="common_locate_tv_05" type="id" />
+
+    <item name="common_locate_iv_01" type="id" />
+    <item name="common_locate_iv_02" type="id" />
+    <item name="common_locate_iv_03" type="id" />
+    <item name="common_locate_iv_04" type="id" />
+    <item name="common_locate_iv_05" type="id" />
+
+    <item name="common_locate_v_01" type="id" />
+    <item name="common_locate_v_02" type="id" />
+    <item name="common_locate_v_03" type="id" />
+    <item name="common_locate_v_04" type="id" />
+    <item name="common_locate_v_05" type="id" />
+</resources>

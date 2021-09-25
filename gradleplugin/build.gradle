@@ -1,0 +1,30 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+apply plugin: 'java-gradle-plugin'
+apply plugin: 'org.jetbrains.kotlin.jvm'
+targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+jar {
+
+    from {
+        zipTree(file(project.projectDir.absolutePath + "/libs/aspectjtools.jar"))
+    }
+    from {
+        zipTree(file(project.projectDir.absolutePath + "/libs/hilt-android-gradle-plugin-2.28-alpha.jar"))
+    }
+}
+
+dependencies {
+    //gradle sdk
+    implementation gradleApi()
+    //groovy sdk
+    implementation localGroovy()
+
+    implementation 'com.android.tools.build:gradle:4.0.1'
+    implementation 'com.android.tools.build:transform-api:1.5.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'org.javassist:javassist:3.22.0-GA'
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+}

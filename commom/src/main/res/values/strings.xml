@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_cannot_use_keyguard">无法使用生物识别</string>
+    <string name="common_title_cannot_empty">识别请求标题不能为空</string>
+    <string name="common_biometrics_title">身份验证</string>
+    <string name="common_biometrics_cancel">取消</string>
+</resources>
